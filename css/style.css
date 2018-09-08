@@ -1,0 +1,97 @@
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    /*margin-left: 100px;*/
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+  .tig{
+      color: darkslateblue;
+      font-weight: bolder;
+  }
+
+.ship{
+   font-size: 20px;
+    font-weight: bolder;
+    color: darkslateblue;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    padding: 0 20px;
+    margin: 0;
+    font-weight:bold;
+}
+
+#world {
+    display: flex;
+    align-items: center;
+    background-image: url('../image/postal-554x350.jpg');
+    /*background-image: url('../image/delivery.png');*/
+    background-size: cover;
+    /*color: #ffffff;*/
+    height: 300px;
+    /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
+}
+
+.wide {
+    font-size: 60px;
+   /*font-weight: bolder;*/
+    margin: 0;
+   color:  darkslateblue;
+
+}
+
+/*.glob{*/
+    /*color: #0055ba;*/
+/*}*/
+.glob{
+    color:darkslateblue;
+}
+
+
+.country{
+    color:darkslateblue;
+}
+
+
+.box{
+    color:darkslateblue;
+    font-weight: bolder;
+    font-size: 15px;
+
+
+}
+
+
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+    background: #dddddd;
+    margin-top: 10px;
+}
+
